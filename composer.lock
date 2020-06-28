@@ -438,16 +438,16 @@
         },
         {
             "name": "topthink/framework",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "1444cce94b40a836958380b160a5fb7bfc165daf"
+                "reference": "b4046fb21e6163ba23a792b694162693dbe71b4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/1444cce94b40a836958380b160a5fb7bfc165daf",
-                "reference": "1444cce94b40a836958380b160a5fb7bfc165daf",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/b4046fb21e6163ba23a792b694162693dbe71b4b",
+                "reference": "b4046fb21e6163ba23a792b694162693dbe71b4b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -502,7 +502,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2020-01-13T05:48:05+00:00"
+            "time": "2020-06-26T16:03:10+00:00"
         },
         {
             "name": "topthink/think-helper",
@@ -551,16 +551,16 @@
         },
         {
             "name": "topthink/think-multi-app",
-            "version": "v1.0.12",
+            "version": "v1.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-multi-app.git",
-                "reference": "3c1914d2adc08c8753c7f67228885ca47fb9b3bf"
+                "reference": "21ac02a99bd69e29444963841e09c5d39b2bcecb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-multi-app/zipball/3c1914d2adc08c8753c7f67228885ca47fb9b3bf",
-                "reference": "3c1914d2adc08c8753c7f67228885ca47fb9b3bf",
+                "url": "https://api.github.com/repos/top-think/think-multi-app/zipball/21ac02a99bd69e29444963841e09c5d39b2bcecb",
+                "reference": "21ac02a99bd69e29444963841e09c5d39b2bcecb",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -597,20 +597,20 @@
                 }
             ],
             "description": "thinkphp6 multi app support",
-            "time": "2020-03-01T13:29:35+00:00"
+            "time": "2020-04-24T08:53:21+00:00"
         },
         {
             "name": "topthink/think-orm",
-            "version": "v2.0.32",
+            "version": "v2.0.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-orm.git",
-                "reference": "03aaaa4d8c4475115b3acaa5aa2498bf5792e017"
+                "reference": "35ca511a1e4d671b39f7afb4c887703c16ef6957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-orm/zipball/03aaaa4d8c4475115b3acaa5aa2498bf5792e017",
-                "reference": "03aaaa4d8c4475115b3acaa5aa2498bf5792e017",
+                "url": "https://api.github.com/repos/top-think/think-orm/zipball/35ca511a1e4d671b39f7afb4c887703c16ef6957",
+                "reference": "35ca511a1e4d671b39f7afb4c887703c16ef6957",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -648,7 +648,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2020-04-26T13:54:48+00:00"
+            "time": "2020-06-22T14:57:28+00:00"
         },
         {
             "name": "topthink/think-template",
@@ -740,16 +740,16 @@
     "packages-dev": [
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.17.0",
+            "version": "v1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c"
+                "reference": "7110338d81ce1cbc3e273136e4574663627037a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fa79b11539418b02fc5e1897267673ba2c19419c",
-                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7110338d81ce1cbc3e273136e4574663627037a7",
+                "reference": "7110338d81ce1cbc3e273136e4574663627037a7",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -768,6 +768,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.17-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -815,7 +819,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
@@ -894,16 +898,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.17.0",
+            "version": "v1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd"
+                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/5e30b2799bc1ad68f7feb62b60a73743589438dd",
-                "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/4a5b6bba3259902e386eb80dd1956181ee90b5b2",
+                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -919,6 +923,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.17-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -972,7 +980,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "symfony/var-dumper",
