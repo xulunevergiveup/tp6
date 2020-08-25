@@ -3,5 +3,4 @@
 /vendor
 *.log
 .env
-composer.lock
 .user.ini
