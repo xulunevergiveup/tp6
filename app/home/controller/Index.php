@@ -19,6 +19,6 @@ class Index extends BaseController
      */
     public function index()
     {
-        return view('home@Index');
+        return view('home@index');
     }
 }
