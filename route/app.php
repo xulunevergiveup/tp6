@@ -11,4 +11,4 @@
 use think\facade\Route;
 
 // 首页
-Route::get('', '\app\home\controller\index@index');
+Route::get('', '\app\home\controller\Index@index');
