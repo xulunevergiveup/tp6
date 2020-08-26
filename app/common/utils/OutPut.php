@@ -19,9 +19,9 @@ class OutPut
     public static function successJson($data = [], $http_code = HttpCode::OK)
     {
         return json([
-            'data'    => $data,
             'code'    => StatusCode::SUCCESS,
-            'message' => 'success'
+            'message' => 'success',
+            'data'    => $data,
         ], $http_code);
     }
 
@@ -34,7 +34,6 @@ class OutPut
      */
     public static function errorJson($code = 0, $data = [], $http_code = HttpCode::INTERNAL_SERVER_ERROR)
     {
-        $result = ['data' => $data];
         if (isset(StatusCode::DIC[$code])) {
             $result['code']    = $code;
             $result['message'] = StatusCode::outPutMessage($code);
@@ -42,6 +41,7 @@ class OutPut
             $result['code']    = StatusCode::ERROR;
             $result['message'] = $code;
         }
+        $result = ['data' => $data];
         return json($result, $http_code);
     }
 }
