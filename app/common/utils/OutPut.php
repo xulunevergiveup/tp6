@@ -41,7 +41,7 @@ class OutPut
             $result['code']    = StatusCode::ERROR;
             $result['message'] = $code;
         }
-        $result = ['data' => $data];
+        $result['data'] = $data;
         return json($result, $http_code);
     }
 }
