@@ -18,6 +18,7 @@ class Index extends BaseController
 {
     /**
      * miss路由
+     * @return json
      */
     public function miss()
     {
