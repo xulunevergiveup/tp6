@@ -3,4 +3,4 @@
 use think\facade\Route;
 
 // api模块miss路由
-Route::miss('index/miss');
+Route::miss('v1.Index/miss');

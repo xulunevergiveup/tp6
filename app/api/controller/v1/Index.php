@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\api\controller;
+namespace app\api\controller\v1;
 
 
 use app\BaseController;
@@ -22,6 +22,6 @@ class Index extends BaseController
      */
     public function miss()
     {
-        return OutPut::errorJson(StatusCode::ROUTE_ERROR, HttpCode::NOT_FOUND);
+        return OutPut::errorJson(StatusCode::ROUTE_ERROR, [], HttpCode::NOT_FOUND);
     }
 }

@@ -3,4 +3,6 @@
 use think\facade\Route;
 
 // demo
-Route::get('demo', 'demo/show');
+Route::group(':version/demo', function () {
+    Route::get('', ':version.Demo/show');
+});
